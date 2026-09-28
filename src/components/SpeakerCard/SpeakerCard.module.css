@@ -1,0 +1,19 @@
+.card { overflow: hidden; border: 1px solid #e3e6ef; border-radius: 20px; background: #fff; box-shadow: 0 16px 44px rgba(22, 30, 58, 0.07); transition: transform 200ms ease, box-shadow 200ms ease; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 22px 52px rgba(22, 30, 58, 0.12); }
+.card.favorite { border-color: #a98cf7; box-shadow: 0 18px 50px rgba(91, 50, 196, 0.16); }
+.avatar { position: relative; display: grid; height: 210px; place-items: center; color: rgba(255,255,255,0.92); font-size: 54px; font-weight: 850; letter-spacing: -0.06em; }
+.avatar::after { content: ''; position: absolute; width: 92px; height: 92px; border: 1px solid rgba(255,255,255,0.46); border-radius: 50%; }
+.coral { background: radial-gradient(circle at 70% 20%, #ffd36b, transparent 28%), linear-gradient(135deg, #ff8b48, #ec4f88); }
+.blue { background: radial-gradient(circle at 70% 20%, #64e4ff, transparent 28%), linear-gradient(135deg, #216ef5, #5636ca); }
+.violet { background: radial-gradient(circle at 70% 20%, #ff86ef, transparent 28%), linear-gradient(135deg, #8b3de8, #3426a6); }
+.body { padding: 24px; }
+.role { min-height: 38px; margin: 0; color: #6651ca; font-size: 12px; font-weight: 800; line-height: 1.5; text-transform: uppercase; }
+.body h3 { margin: 10px 0 8px; font-size: 23px; }
+.talk { min-height: 50px; margin: 0; color: #59667d; line-height: 1.55; }
+.meta { display: flex; gap: 8px; margin-top: 20px; }
+.meta span { padding: 7px 10px; border-radius: 999px; color: #5934c8; background: #f0ebff; font-size: 12px; font-weight: 800; }
+.favoriteButton { display: flex; width: 100%; align-items: center; justify-content: center; gap: 9px; min-height: 44px; margin-top: 20px; padding: 0 14px; border: 1px solid #d9d1f4; border-radius: 12px; color: #5633b8; background: #fff; font-weight: 800; cursor: pointer; transition: color 180ms ease, background 180ms ease, border-color 180ms ease; }
+.favoriteButton:hover { border-color: #8b66eb; background: #f7f4ff; }
+.favoriteButton:focus-visible { outline: 3px solid rgba(124, 58, 237, 0.3); outline-offset: 3px; }
+.favoriteButton span { font-size: 19px; line-height: 1; }
+.favoriteButton.active { color: #fff; border-color: #6d35e8; background: linear-gradient(135deg, #7c3aed, #5a32c8); }

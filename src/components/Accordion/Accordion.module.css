@@ -1,0 +1,7 @@
+.item { overflow: hidden; border: 1px solid #e0e4ee; border-radius: 16px; background: #fff; transition: border-color 180ms ease, box-shadow 180ms ease; }
+.item.open { border-color: #cfc1f8; box-shadow: 0 12px 34px rgba(70, 47, 151, 0.08); }
+.trigger { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 24px; border: 0; color: #151c30; background: transparent; font-weight: 800; text-align: left; cursor: pointer; }
+.trigger:focus-visible { outline: 3px solid rgba(124, 58, 237, 0.3); outline-offset: -4px; }
+.icon { display: grid; width: 30px; height: 30px; flex: 0 0 30px; place-items: center; border-radius: 9px; color: #6d35e8; background: #eee9ff; font-size: 21px; }
+.content { padding: 0 70px 22px 24px; color: #626e84; line-height: 1.65; }
+.content p { margin: 0; }
